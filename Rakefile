@@ -21,7 +21,7 @@ namespace :db do
   
   desc 'drop into the Pry console'
   task :console => :environment do 
-    pry.start 
+    Pry.start 
   end
   
   desc 'seed the database with some dummy data'
